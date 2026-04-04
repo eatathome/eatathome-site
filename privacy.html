@@ -49,6 +49,8 @@ nav {
 }
 .doc-wrap h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
 
+.doc-wrap h3 { font-family: var(--sans); font-size: 1rem; font-weight: 500; color: var(--text); margin: 1.25rem 0 0.4rem; }
+
 .doc-wrap p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.75; }
 .doc-wrap ul { margin: 0.5rem 0 1rem 1.25rem; }
 .doc-wrap ul li { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.4rem; line-height: 1.7; }
@@ -60,12 +62,6 @@ nav {
   padding: 1rem 1.25rem; margin: 1.5rem 0;
 }
 .callout p { color: var(--teal-dark); margin: 0; font-size: 0.9rem; }
-
-.placeholder {
-  background: var(--cream-dark); border: 1px dashed rgba(88,148,134,0.2);
-  border-radius: 8px; padding: 0.75rem 1rem; margin: 0.5rem 0 1rem;
-}
-.placeholder p { color: var(--brown-light); font-size: 0.85rem; margin: 0; font-style: italic; }
 
 footer {
   background: var(--brown); border-top: 1px solid rgba(255,255,255,0.06);
@@ -97,7 +93,7 @@ footer {
 <div class="page-header">
   <p>Legal</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: [DATE] &nbsp;·&nbsp; Effective: [DATE]</p>
+  <p class="updated">Effective: February 28, 2026</p>
 </div>
 
 <div class="doc-wrap">
@@ -106,103 +102,151 @@ footer {
     <p>This policy explains how Eat at Home collects, uses, and protects your information — including financial data accessed through Plaid. We never sell your data.</p>
   </div>
 
-  <h2>1. Who we are</h2>
-  <p>[YOUR COMPANY NAME] ("we," "us," or "our") operates the Eat at Home mobile application. We are registered in [STATE] as [ENTITY TYPE].</p>
-  <div class="placeholder"><p>Replace with your LLC name, state of registration, and registered address once finalized.</p></div>
-  <p>If you have questions about this policy, contact us at: <a href="mailto:privacy@eatathome.app">privacy@eatathome.app</a></p>
+  <h2>1. Introduction</h2>
+  <p>Welcome to Eat At Home ("the App"), operated by Eat At Home LLC, a Delaware limited liability company ("Eat At Home," "we," "us," or "our"). This Privacy Policy describes how we collect, use, disclose, and protect your personal information when you use our App, and explains the choices available to you regarding your information.</p>
+  <p>This Privacy Policy is incorporated into and forms a part of our Terms &amp; Conditions. By using the App, you agree to the collection and use of information as described in this Policy. If you do not agree with this Policy, please do not use the App.</p>
+  <p>If you have any questions, you can contact us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>.</p>
 
-  <h2>2. Information we collect</h2>
-  <p>We collect the following categories of information when you use Eat at Home:</p>
+  <h2>2. Information We Collect</h2>
 
-  <p><strong style="color:var(--text);">Account information</strong></p>
+  <h3>Information You Provide Directly</h3>
   <ul>
-    <li>Email address and name (if you create an account)</li>
-    <li>Device identifiers and push notification tokens</li>
+    <li><strong>Account information</strong> — such as your name and email address when you create an account</li>
+    <li><strong>Dinner and meal entries</strong> — descriptions, photos, or other details you log when recording home-cooked meals</li>
+    <li><strong>Onboarding preferences</strong> — your estimated spending averages, household size, and weekly cooking goal as provided during onboarding</li>
+    <li><strong>Support communications</strong> — information you provide when contacting us for assistance, including your email address and the content of your message</li>
   </ul>
 
-  <p><strong style="color:var(--text);">Financial data (via Plaid)</strong></p>
+  <h3>Information Collected Automatically</h3>
   <ul>
-    <li>Bank account and transaction data accessed through Plaid Technologies, Inc.</li>
-    <li>This includes transaction amounts, merchant names, and transaction dates</li>
-    <li>We access this data in read-only mode — we cannot move, transfer, or modify your funds</li>
-    <li>We use this data solely to identify restaurant visits and grocery purchases for savings calculations</li>
+    <li><strong>Usage data</strong> — how you interact with the App, including features used, screens visited, and session duration</li>
+    <li><strong>Device information</strong> — device type, operating system version, unique device identifiers, and app version</li>
+    <li><strong>Log and diagnostic data</strong> — crash reports, error logs, and performance data used to improve App reliability</li>
   </ul>
 
-  <p><strong style="color:var(--text);">Usage data</strong></p>
+  <h3>Information Collected Through Bank Integration (Plaid)</h3>
+  <p>Eat At Home LLC uses Plaid Technologies, Inc. ("Plaid") to connect to your financial accounts. If you choose to link a bank account, the following applies:</p>
   <ul>
-    <li>Meals logged, streaks, and in-app activity</li>
-    <li>App crash reports and performance data</li>
-    <li>Device type, operating system version, and app version</li>
+    <li><strong>What we access</strong> — We retrieve read-only transaction data from your linked accounts, specifically to identify dinner-related purchases and grocery transactions. We do not access your full account balance, credit limits, or unrelated transactions beyond what is necessary for this purpose.</li>
+    <li><strong>Your credentials</strong> — Your bank login credentials are entered directly into Plaid's secure interface and are never seen or stored by Eat At Home LLC.</li>
+    <li><strong>Plaid's role</strong> — Plaid acts as an independent data processor subject to its own Privacy Policy, available at <a href="https://plaid.com/legal/privacy-policy" target="_blank">plaid.com/legal/privacy-policy</a>. By connecting your bank account, you also agree to Plaid's terms.</li>
+    <li><strong>Consent and control</strong> — Connecting a bank account is entirely optional. You may disconnect your linked account at any time within the App's settings, which will immediately stop further data retrieval.</li>
+    <li><strong>Data minimization</strong> — We store only the transaction data relevant to identifying dining-out and grocery purchases. We do not retain a full copy of your transaction history.</li>
   </ul>
 
-  <h2>3. How we use your information</h2>
-  <p>We use the information we collect to:</p>
+  <h2>3. How We Use Your Information</h2>
+  <p>We use the personal information we collect for the following purposes:</p>
   <ul>
-    <li>Calculate and display your home cooking savings</li>
-    <li>Detect restaurant and grocery transactions automatically</li>
-    <li>Maintain your streak, milestones, and savings history</li>
-    <li>Send you notifications about your savings (with your permission)</li>
-    <li>Improve the app and fix bugs</li>
-    <li>Respond to support requests</li>
-    <li>Comply with legal obligations</li>
+    <li>Provide, operate, and improve the core features of the App, including tracking your dinner savings</li>
+    <li>Identify dining-related and grocery transactions from your linked bank account to automate savings calculations</li>
+    <li>Save your preferences and meal history across sessions</li>
+    <li>Respond to your customer support requests and communications</li>
+    <li>Send you service-related notifications and App updates (not marketing communications, unless you separately opt in)</li>
+    <li>Analyze aggregated usage patterns to improve App performance, features, and user experience</li>
+    <li>Detect, prevent, and address technical issues, fraud, abuse, and security threats</li>
+    <li>Comply with applicable legal obligations, court orders, and governmental requests</li>
+    <li>Enforce our Terms &amp; Conditions and protect the rights, property, and safety of Eat At Home LLC, our users, and the public</li>
   </ul>
-  <p>We do not use your financial data for advertising, credit decisions, or any purpose unrelated to the core savings-tracking features of the app.</p>
+  <p>We do <strong>not</strong> sell your personal information to third parties. We do not use your personal information for targeted advertising or cross-context behavioral advertising purposes.</p>
 
-  <h2>4. Plaid and financial data</h2>
-  <p>Eat at Home uses Plaid Technologies, Inc. to securely connect to your financial accounts. When you link your accounts through Plaid:</p>
+  <h2>4. Data Sharing</h2>
+  <p>We do not share your personal information with third parties except in the following limited circumstances:</p>
   <ul>
-    <li>Your banking credentials are entered directly into Plaid's secure interface — we never see your username or password</li>
-    <li>Plaid retrieves your transaction data and shares it with us in read-only form</li>
-    <li>Your use of Plaid is also subject to <a href="https://plaid.com/legal/privacy-statement/" target="_blank">Plaid's Privacy Policy</a> and <a href="https://plaid.com/legal/end-user-privacy-policy/" target="_blank">Plaid's End User Privacy Policy</a></li>
-    <li>You can disconnect your accounts at any time from within the app</li>
-  </ul>
-
-  <div class="callout">
-    <p>We access your financial data only to calculate savings. We never sell, rent, or share your financial data with third parties for marketing or advertising purposes.</p>
-  </div>
-
-  <h2>5. Data sharing</h2>
-  <p>We do not sell your personal information. We may share your information only in the following limited circumstances:</p>
-  <ul>
-    <li><strong style="color:var(--text);">Service providers:</strong> We use third-party services including Plaid (financial data), Google AdMob (advertising), and crash analytics tools. Each is contractually bound to use your data only as directed by us.</li>
-    <li><strong style="color:var(--text);">Legal compliance:</strong> If required by law, court order, or governmental authority.</li>
-    <li><strong style="color:var(--text);">Business transfers:</strong> In the event of a merger or acquisition, your data may transfer to the new entity under the same privacy commitments.</li>
+    <li><strong>Plaid</strong> — When you connect a bank account, your financial institution credentials and transaction data are processed by Plaid on our behalf under its own terms and privacy policy. See Section 2 for more detail.</li>
+    <li><strong>Service providers</strong> — We engage trusted third-party vendors (such as cloud hosting, analytics, and customer support platforms) that process data on our behalf solely for the purposes we specify, under written confidentiality and data processing agreements.</li>
+    <li><strong>Legal compliance and protection</strong> — We may disclose your information if required by applicable law, regulation, court order, or valid governmental request, or to protect the rights, safety, property, or legal interests of Eat At Home LLC, our users, or the public.</li>
+    <li><strong>Business transfers</strong> — In the event of a merger, acquisition, reorganization, bankruptcy, or sale of all or substantially all of our assets, your information may be transferred as part of that transaction. We will notify you via email or prominent in-App notice before your information is transferred and becomes subject to a materially different privacy policy.</li>
+    <li><strong>With your consent</strong> — We may share your information for any other purpose with your explicit, informed consent.</li>
   </ul>
 
-  <h2>6. Advertising</h2>
-  <p>Eat at Home may display ads through Google AdMob. AdMob may use your device's advertising identifier (IDFA on iOS) to show relevant ads. You can limit ad tracking in your device settings under Privacy > Tracking. We do not share your financial or savings data with AdMob.</p>
-
-  <h2>7. Data retention</h2>
-  <p>We retain your data for as long as your account is active. If you delete your account, we will delete your personal data within 30 days, except where we are required to retain it for legal purposes.</p>
-
-  <h2>8. Security</h2>
-  <p>We use industry-standard security measures including encryption in transit (TLS) and at rest. Financial data accessed through Plaid is subject to Plaid's security infrastructure, which meets bank-level security standards. No method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
-
-  <h2>9. Children's privacy</h2>
-  <p>Eat at Home is not directed at children under 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will delete it promptly.</p>
-
-  <h2>10. Your rights</h2>
-  <p>Depending on your location, you may have the right to:</p>
+  <h2>5. Financial Privacy Notice</h2>
+  <p>Because the App accesses financial account data through Plaid, Eat At Home LLC may be subject to financial privacy regulations, including the Gramm-Leach-Bliley Act (GLBA) and the FTC's Standards for Safeguarding Customer Information (the "Safeguards Rule," 16 C.F.R. Part 314).</p>
+  <p>In accordance with applicable financial privacy laws and regulations, Eat At Home LLC:</p>
   <ul>
-    <li>Access the personal data we hold about you</li>
-    <li>Request correction of inaccurate data</li>
-    <li>Request deletion of your data</li>
-    <li>Disconnect your financial accounts at any time from within the app</li>
-    <li>Opt out of push notifications in your device settings</li>
+    <li>Collects and uses your financial information solely to provide and improve the App's services, as described in this Policy</li>
+    <li>Does not sell, rent, or share your non-public personal financial information with non-affiliated third parties except as described in Section 4 and as permitted by applicable law</li>
+    <li>Maintains a written information security program with administrative, technical, and physical safeguards appropriate to the size, complexity, and sensitivity of the financial information we handle</li>
+    <li>Requires service providers who access or process your financial data to maintain appropriate security controls under written contractual agreements</li>
+    <li>Maintains an incident response plan to promptly address any security breaches affecting your financial information</li>
+    <li>Designates a qualified individual responsible for overseeing our information security program</li>
   </ul>
-  <p>To exercise any of these rights, contact us at <a href="mailto:privacy@eatathome.app">privacy@eatathome.app</a>.</p>
+  <p>For questions about our financial privacy practices, contact us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>.</p>
 
-  <h2>11. California residents (CCPA)</h2>
-  <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act, including the right to know what personal information we collect, the right to delete your personal information, and the right to opt out of the sale of personal information (we do not sell personal information). To make a request, contact us at <a href="mailto:privacy@eatathome.app">privacy@eatathome.app</a>.</p>
+  <h2>6. Data Retention</h2>
+  <p>We retain your personal information for as long as your account is active or as reasonably necessary to provide the App's services, resolve disputes, enforce our Terms &amp; Conditions, and comply with our legal obligations. Our general retention periods are as follows:</p>
+  <ul>
+    <li>Account information: retained for the duration of your account and for up to three (3) years following account deletion, as required to fulfill legal and regulatory obligations</li>
+    <li>Financial transaction data retrieved via Plaid: retained only as long as necessary to support your savings history in the App, and promptly deleted upon account deletion or bank account disconnection</li>
+    <li>Customer support communications: retained for up to two (2) years</li>
+    <li>Log and diagnostic data: retained for up to twelve (12) months</li>
+  </ul>
+  <p>You may request deletion of your account and all associated personal information at any time by contacting us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>. We will process deletion requests within 30 days, subject to any legal obligations requiring us to retain certain data for a longer period.</p>
 
-  <h2>12. Changes to this policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by posting a notice in the app or by email. The "last updated" date at the top of this page reflects when the policy was last revised.</p>
+  <h2>7. Cookies and Tracking Technologies</h2>
+  <p>The App may use the following tracking technologies:</p>
+  <ul>
+    <li><strong>Analytics tools</strong> — We may use third-party analytics services (such as Firebase Analytics or similar tools) that collect aggregated, anonymized data about how users interact with the App, including session data, feature usage, and device information. This data is used solely to understand and improve App performance.</li>
+    <li><strong>Crash reporting</strong> — We use crash reporting and error monitoring tools to detect and diagnose technical issues. These tools may collect device type, operating system, and diagnostic information about the nature of the crash or error.</li>
+  </ul>
+  <p>We do <strong>not</strong> use advertising trackers, cross-site cookies, or tracking technologies for targeted advertising or cross-context behavioral advertising. You may limit certain data collection by adjusting your mobile device's privacy settings, though doing so may affect some App functionality.</p>
 
-  <h2>13. Contact us</h2>
-  <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us:</p>
-  <div class="placeholder"><p>Add your company name, mailing address, and support email here before publishing.</p></div>
-  <p>Email: <a href="mailto:privacy@eatathome.app">privacy@eatathome.app</a><br>
-  Support: <a href="contact.html">eatathome.app/contact</a></p>
+  <h2>8. Your Rights</h2>
+  <p>Depending on your jurisdiction and applicable law, you may have the following rights with respect to your personal information. We will not discriminate against you in any way for exercising any of these rights.</p>
+  <ul>
+    <li><strong>Access</strong> — the right to request a copy of the personal information we hold about you</li>
+    <li><strong>Correction</strong> — the right to request that we correct or update any inaccurate or incomplete personal information</li>
+    <li><strong>Deletion</strong> — the right to request that we delete your personal information, subject to applicable legal exceptions</li>
+    <li><strong>Data portability</strong> — the right to receive a copy of personal information you have provided to us in a structured, machine-readable format</li>
+    <li><strong>Restriction of processing</strong> — the right to request that we limit the processing of your personal information in certain circumstances</li>
+    <li><strong>Opt-out of sale or sharing</strong> — we do not sell or share your personal information for cross-context behavioral advertising</li>
+    <li><strong>Withdraw consent</strong> — the right to withdraw any consent you have previously given for the collection or use of your personal information</li>
+    <li><strong>Disconnect linked bank accounts</strong> — you may disconnect your bank account at any time in the App's settings, immediately stopping further data retrieval</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>. We will acknowledge your request within 10 business days and provide a substantive response within 30 to 45 days, depending on applicable law.</p>
+
+  <h2>9. Additional Rights for California Residents (CCPA/CPRA)</h2>
+  <p>If you are a California resident, you have the following additional rights under the California Consumer Privacy Act of 2018 (CCPA) and the California Privacy Rights Act of 2020 (CPRA):</p>
+  <ul>
+    <li><strong>Right to Know</strong> — You may request that we disclose the categories and specific pieces of personal information we have collected about you, the categories of sources, the business or commercial purposes for which it was collected, and the categories of third parties with whom we share it.</li>
+    <li><strong>Right to Delete</strong> — You may request deletion of personal information we have collected from you, subject to certain legal exceptions.</li>
+    <li><strong>Right to Correct</strong> — You may request that we correct inaccurate personal information we maintain about you.</li>
+    <li><strong>Right to Opt-Out of Sale or Sharing</strong> — We do not sell your personal information or share it for cross-context behavioral advertising. No action is required by you to exercise this right.</li>
+    <li><strong>Right to Limit Use of Sensitive Personal Information</strong> — We do not use or disclose sensitive personal information (including financial account data) for any purpose other than providing the App's services.</li>
+    <li><strong>Right to Non-Discrimination</strong> — We will not deny you services, charge different prices, or provide a different level of service because you exercised your CCPA/CPRA rights.</li>
+  </ul>
+  <p>To submit a CCPA/CPRA request, contact us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>. We will confirm receipt within 10 business days and respond within 45 calendar days, with one possible 45-day extension if necessary.</p>
+
+  <h2>10. Do Not Track</h2>
+  <p>Because there is currently no universally accepted technical standard for recognizing or honoring Do Not Track (DNT) signals, the App does not currently respond to DNT browser signals or similar mechanisms. However, as stated throughout this Policy, we do not sell your personal information, track your activity across third-party websites, or use cross-context behavioral advertising.</p>
+
+  <h2>11. Children's Privacy</h2>
+  <p>The App is not directed to children under the age of 13, and Eat At Home LLC does not knowingly collect, use, or disclose personal information from children under 13, in compliance with the Children's Online Privacy Protection Act (COPPA). If you are under 13 years of age, you are strictly prohibited from using the App or submitting any personal information.</p>
+  <p>If we discover that we have inadvertently collected personal information from a child under 13, we will delete that information promptly. If you are a parent or guardian and believe your child under 13 has provided us with personal information without your consent, please contact us immediately at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>.</p>
+
+  <h2>12. Security</h2>
+  <p>Eat At Home LLC takes reasonable and appropriate technical, administrative, and physical security measures to protect your personal information against unauthorized access, disclosure, alteration, loss, or destruction, including:</p>
+  <ul>
+    <li>Encryption of data in transit using Transport Layer Security (TLS) protocols</li>
+    <li>Financial transaction data retrieved through Plaid is transmitted only over encrypted connections</li>
+    <li>Your bank login credentials are never stored, transmitted to, or accessible by Eat At Home LLC</li>
+    <li>Access to personal information is restricted to authorized employees and contractors who need access to perform their job functions</li>
+    <li>Regular review, assessment, and testing of our security controls and practices</li>
+    <li>Maintenance of a written information security program in accordance with the FTC Safeguards Rule</li>
+  </ul>
+  <p>No method of data transmission or electronic storage is 100% secure, and we cannot guarantee absolute security. We encourage you to use strong, unique passwords for your account and to contact us immediately at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a> if you suspect any unauthorized access.</p>
+
+  <h2>13. International Users</h2>
+  <p>The App is designed for and directed at users located in the United States. If you choose to access or use the App from outside the United States, you do so voluntarily and at your own risk. Your personal information will be transferred to, stored, and processed in the United States, where data protection and privacy laws may differ from those in your country of residence.</p>
+  <p>Please note that the App is not directed to users in the European Union, European Economic Area, United Kingdom, or Switzerland, and Eat At Home LLC does not intentionally process personal data of individuals located in those regions.</p>
+
+  <h2>14. Accessibility</h2>
+  <p>Eat At Home LLC is committed to making our App accessible to all users, including those with disabilities, and strives to comply with applicable accessibility standards, including the Web Content Accessibility Guidelines (WCAG) and the Americans with Disabilities Act (ADA) to the extent applicable to mobile applications. If you experience any difficulty accessing any feature of the App or need this Privacy Policy in an alternative accessible format, please contact us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>.</p>
+
+  <h2>15. Changes to This Policy</h2>
+  <p>Eat At Home LLC reserves the right to update or modify this Privacy Policy at any time. When we make changes, we will update the effective date at the top of this Policy. For material changes, we will provide prominent advance notice within the App or via email to your registered address. Your continued use of the App after the updated Privacy Policy is posted constitutes your acceptance of the updated Policy.</p>
+
+  <h2>16. Contact Us</h2>
+  <p>If you have any questions or concerns about this Privacy Policy, please reach out to us at <a href="mailto:support@eatathomeapp.com">support@eatathomeapp.com</a>.</p>
 
 </div>
 
